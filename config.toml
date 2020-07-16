@@ -54,8 +54,8 @@ disable404 = true
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//github.com/olckara"
-        title = "github.com/olckara"
+        url = "//olckara.dev"
+        title = "olckara.dev"
 
         [[params.contact.list]]
         class = "linkedin"
