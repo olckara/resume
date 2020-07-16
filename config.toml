@@ -1,7 +1,7 @@
 # Page settings
 
 baseurl = "https://olckara.dev/"
-publishDir = "docs"
+publishDir = "docs/resume"
 languageCode = "en-us"
 title = "Olcay Karaduman Resume"
 theme = "hugo-orbit-theme"
