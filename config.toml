@@ -1,0 +1,249 @@
+# Page settings
+
+baseurl = "https://olckara.dev/"
+publishDir = "docs"
+languageCode = "en-us"
+title = "Olcay Karaduman Resume"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-97006611-1"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Software Engineer. Graduated from Bilkent University Computer Technology and Information Systems in 2017. Loves to code. Loves to create. Loves to learn "
+    author = "Olcay Karaduman"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-2.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Olcay Karaduman"
+        tagline = "Software Engineer"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: olckara@gmail.com"
+        title = "olckara@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+905069919354"
+        title = "+905069919354"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//github.com/olckara"
+        title = "github.com/olckara"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/olckara"
+        title = "linkedin.com/in/olckara"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/olckara"
+        title = "github.com/olckara"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/olckara"
+        title = "@olckara"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "BSc in Computer Technology and Information Systems"
+        college = "Bilkent University"
+        dates = "2013 - 2017"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "Turkish"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Japanese"
+        level = "Elementary"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Video Games"
+
+        [[params.interests.list]]
+        interest = "Comics"
+
+        [[params.interests.list]]
+        interest = "Sci-Fi & Fantasy"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = """Since childhood, I've been fascinated by computers. I have learned many concepts all by myself \
+                     whether using the internet or books. I have never lost the spark to learn all there is to computers. \
+                     Then I decided to take it to the next level and applied to Bilkent University Computer Technology \
+                     and Information Systems department so I could become an IT professional. \
+                     I don't see coding, building software solutions, dealing with infrastructure et cetera as a job or \
+                     assignment. I have fun while doing it. I like being challenged and I feel joy in learning. I'm a \
+                     quick learner and curious. I've tried out Linux in early ages, just out of curiosity. Today, \
+                     I know about UNIX based systems beyond fundamentals and I continue learning and wondering. \
+                     I love to create and I love to learn. My main purpose in life is to create solutions that can reach \
+                     out to millions, solve their problems. I've been working as a Software Engineer for two years now. \
+                     I've developed solutions in many programming languages including NodeJS/JavaScript, Scala, Java and Python. \
+                     I've involved in CI/CD pipelines and worked with Scrum/Kanban teams."""
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Software Engineer"
+        dates = "June 2019 - Present"
+        company = "Migros, Istanbul"
+        details = "Migros is one of the largest retail supermarket chains in Turkey. They also have e-commerce websites for many audiences. At Migros, we build the infrastructure, architecture and develop features for a great, data-intensive e-commerce product. I've developed payment features, security features and architecture features using latest Java and Spring Boot. I've also developed features/improvements/fixes for React and React Native applications."
+
+        [[params.jobs.list]]
+        position = "Software Engineer"
+        dates = "Jan 2019 - June 2019"
+        company = "Intenseye, Istanbul"
+        details = "Intenseye is a newly founded, small start-up. It provides Artificial Intelligence API's for videos and images. I joined there as a Backend/Infrastructure Engineer and as a first employee. We have built the infrastructure, developed core features and planned the architecture of a data-intensive application."
+
+        [[params.jobs.list]]
+        position = "Software Engineer"
+        dates = "Jul 2017 - Jan 2019"
+        company = "Sony, Istanbul"
+        details = """Global Web Transition - www.sony.co.uk
+                     GWT team is responsible for implementation of new features for Sony marketing web platform within more than 150 locales. I've worked on internal site search engine replacement using Scala, Play Framework, Python/Scrapy, MySQL, ElasticSearch, and Serverless on AWS Lambda. Our work is currently live in production on 150+ languages and 80+ countries. 
+                     Customer Information Management Sony Europe - CIM
+                     CIM team is responsible for maintenance of the system and implementation of new features. I've worked on the migration of the project to Java 8 and Spring 5.0/Spring Boot. We have migrated existing SOAP services to REST and transferred application to AWS. I've took part in the migration from Apache Tomcat to Spring Boot and the migration of CI/CD pipelines using Bamboo and Crontab."""
+
+        [[params.jobs.list]]
+        position = "Software Engineer"
+        dates = "May 2016 - Dec 2016"
+        company = "Alictus, Ankara"
+        details = "During my work at Alictus, We've developed a pure NodeJS server from scratch. This project was the second iteration of the analytics service and built with MongoDB, NodeJS, Express, and Handlebars."
+
+        [[params.jobs.list]]
+        position = "Software Engineer Intern"
+        dates = "Jan 2016 - May 2016"
+        company = "Alictus, Ankara"
+        details = "During my internship days at Alictus, I have developed an Adobe Photoshop script using Adobe's ExtendScript and a game analytics service plug-in for Unity Engine in C#. I also helped to maintain and fixed some bugs on MeteorJS/NodeJS based web server which was the first iteration of the Analytics Back-End system of Alictus, including an admin panel."
+        
+        [[params.jobs.list]]
+        position = "SEO Analysis R&D Intern"
+        dates = "Jun 2015 - Aug 2015"
+        company = "ZEO Agency, Istanbul"
+        details = "I've worked as an SEO Analysis Intern and also worked with freelancers to develop tools for SEO and automate SEO analysis process. I've learned many digital marketing concepts along with the SEO and web optimization at Zeo Agency. I've also learned so much about the startup environment."
+
+    # Social Activities section
+
+    [params.social]
+        enable = true
+        icon = "fa-users"
+        title = "Social Activities"
+
+        [[params.social.list]]
+        position = "Vice President"
+        dates = "2015 - 2017"
+        company = "Bilkent RAVENS Sci-Fi & Fantasy Club"
+        details = "Our goal when we create Bilkent RAVENS to get people who considered as 'Geek' or 'Nerd' together and make them social and active in a community. As RAVENS we made special movie nights, celebrated special events like Star Wars Day (May the 4th) etc. and also collaborated with Bilkent Media and Bilkent e-Sports to make a Comic Con inspired event called 'BUCON' for the first time in Bilkent. BUCON was an extremely big event and approximately had hundreds of visitors."
+        
+        [[params.social.list]]
+        position = "Video Game Columnist"
+        dates = "Sep 2014 - May 2016"
+        company = "GazeteBilkent,"
+        details = "Science & Technology Author - Video Game Journalism. My articles can be accessed at : http://www.gazetebilkent.com/author/karaduman/"
+
+    
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "L.I.T.S."
+        url = "#"
+        tagline = "L.I.T.S. is my university senior project. We used Python, Keras, Tensorflow, and OpenCV to help deaf people by converting Turkish Sign Language into audio and audio into text for easier communication between a deaf and hearing individual. With L.I.T.S., we aimed to help the integration of at least 1 million people into society. Usage of L.I.T.S. can vary from daily chit-chats to important business meetings."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "NodeJS"
+        level = "90%"
+                
+        [[params.skills.list]]
+        skill = "Java"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "Scala"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "75%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Ported for Olcay Karaduman"
