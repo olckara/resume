@@ -9,6 +9,10 @@ pygmentsStyle = "bw"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
 
 [params]
 author = "Olcay Karaduman"
@@ -64,12 +68,6 @@ scriptsrc = [
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 connectsrc = ["'self'", "https://www.google-analytics.com"]
-
-[taxonomies]
-category = "categories"
-series = "series"
-tag = "tags"
-author = "authors"
 
 [[params.social]]
 name = "Github"
