@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Olcay Karaduman Resume</title>
-    <link>https://olckara.dev/</link>
-    <description>Recent content on Olcay Karaduman Resume</description>
+    <title>Hi there 👋, my name is Olcay</title>
+    <link>http://www.olckara.dev/</link>
+    <description>Recent content on Hi there 👋, my name is Olcay</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://olckara.dev/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="http://www.olckara.dev/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
