@@ -1,6 +1,7 @@
 baseURL = "http://www.olckara.dev"
 title = "Hi there 👋, my name is Olcay"
 theme = "hugo-coder"
+publishDir = "docs"
 languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
