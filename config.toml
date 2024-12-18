@@ -10,9 +10,9 @@ pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 # Do not build files for websites. Need them? Set to false
-disableRSS = true
-disableSitemap = true
-disable404 = true
+disableRSS = false
+disableSitemap = false
+disable404 = false
 
 [params]
 author = "Olcay Karaduman"
@@ -97,11 +97,6 @@ url = "https://www.linkedin.com/in/olckara/"
 languageName = ":uk:"
 
 [[languages.en.menu.main]]
-name = "Contact me"
-weight = 1
-url = "contact/"
-
-[[languages.en.menu.main]]
 name = "About"
 weight = 1
 url = "about/"
@@ -115,3 +110,13 @@ url = "posts/"
 name = "Projects"
 weight = 3
 url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 4
+url = "contact/"
+
+# Add this section for better RSS support
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
